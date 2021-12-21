@@ -5,6 +5,11 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.5",
+    "bootstrap": "^5.1.3",
     "gatsby": "^4.1.5",
     "gatsby-plugin-gatsby-cloud": "^4.1.2",
     "gatsby-plugin-image": "^2.1.2",
@@ -14,12 +19,17 @@
     "gatsby-plugin-sharp": "^4.1.3",
     "gatsby-source-filesystem": "^4.1.2",
     "gatsby-transformer-sharp": "^4.1.0",
+    "grommet": "^2.18.0",
+    "grommet-icons": "^4.6.2",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
+    "react-bootstrap": "^2.0.2",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "prettier": "^2.4.1"
   },
   "keywords": [
@@ -30,6 +40,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
