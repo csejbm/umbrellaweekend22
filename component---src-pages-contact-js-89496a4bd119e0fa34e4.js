@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[501],{262:function(e,t,n){n.r(t);var a=n(7294),l=(n(5444),n(2100)),r=n(3751),c=n(6187);t.default=function(){return a.createElement(l.Z,null,a.createElement(r.Z,{title:"Contact Us"}),a.createElement(c.Z,{className:"text-center"},a.createElement("h1",null,"Contact Coming Soon!"),a.createElement("p",null,"test")))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-89496a4bd119e0fa34e4.js.map

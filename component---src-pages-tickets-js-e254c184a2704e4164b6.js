@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[528],{7254:function(e,t,a){a.r(t);var n=a(7294),c=a(5444),l=a(2100),r=a(3751);t.default=function(){return n.createElement(l.Z,null,n.createElement(r.Z,{title:"Tickets"}),n.createElement("h1",{className:"py-4"},"Tickets Coming Soon!"),n.createElement(c.Link,{to:"/"},"Go back to the homepage"))}}}]);
+//# sourceMappingURL=component---src-pages-tickets-js-e254c184a2704e4164b6.js.map
